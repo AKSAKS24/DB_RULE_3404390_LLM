@@ -160,7 +160,6 @@ Your tasks:
    - Scan ABAP code in this unit for usage of J_1BBRANCH.
    - Replace SELECT statements with `SELECT * FROM P_BusinessPlace` and add TODO.
    - Replace non-SELECT usages (JOIN, TABLES, TYPE, LIKE) with P_BusinessPlace and add TODO.
-   - Output strictly in JSON with: original_code, remediated_code, changes[].
 
 Return ONLY strict JSON:
 {{
